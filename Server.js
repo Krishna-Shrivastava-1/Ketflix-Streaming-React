@@ -16,7 +16,8 @@ app.use(bodyParser.json())
 
 app.use(express.json())
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['https://ketfliix.netlify.app/'],
+    // origin: ['http://localhost:5173'],
     methods: ['POST', 'GET', 'PUT', "DELETE"],
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true
